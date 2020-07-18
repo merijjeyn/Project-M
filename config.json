@@ -1,0 +1,24 @@
+{
+    "mongodb_uri": "mongodb://127.0.0.1:27017",
+    "webhook_url": [
+        "https://discordapp.com/api/webhooks/734137380780376185/pPDNbL6oq5SCIe4BHDI3BQElHqTDP4gNSptWpupXqzqC7M06JcjXNaI8iZgg610_myKz"
+    ],
+    "discord_message_settings": {
+        "botImage": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "botName": "Shopify monitor",
+        "footerDescription": "",
+        "footerImage": "",
+        "timeOfNotification": true
+    },
+    "requestTiming": 30000,
+    "__KEYWORDS_EXPLAINED" : "In this default example that I've created the monitor will notify you if find a Nike product in hanon or sensinko site, and it'll notify if find a New Balance or Adidas Yeezy product only in hanon site",
+    "keywords": [["Nike"]],
+    "sites": [
+        {
+            "url": "https://shopigo.com/",
+            "keywords": [["New Balance"],["Adidas","Yeezy" ]]
+        },
+        { "url": "https://wunder.com.tr/" }
+    ],
+    "proxiesList": [ ]
+}
