@@ -1,4 +1,4 @@
-# Shopify monitor
+# Project-M
 
 Follow my new project https://twitter.com/BlackRabbitIO
 
